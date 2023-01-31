@@ -1,0 +1,217 @@
+.main {
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-search{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 12rem;
+}
+.main-column {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.row-1 {
+    background-image: url('../resour/ngang-nho-1-1667626497.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 422px;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    width: 105%;
+}
+
+.product-category {
+    width: 18%;
+}
+
+.product-list {
+    width: 80%;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-category {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 750;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(228, 220, 189);
+    display: block;
+    height: 24px;
+}
+
+.category-opt {
+    display: block;
+}
+
+.item-category {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid rgb(228, 220, 189);
+    height: 48px;
+    background-color: inherit;
+    display: block;
+    width:100%;
+}
+
+.title-product {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 750;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(228, 220, 189);
+    display: block;
+    height: 24px;
+    width: 94%;
+}
+
+.next-btn {
+    height: 28px;
+    width: 36px;
+    background-color: rgb(255, 249, 249);
+    margin-left: 4px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-btn:hover {
+    background-color: rgb(13, 13, 13);
+    color: rgb(241, 236, 236);
+    cursor: pointer;
+}
+
+.product-list-container {
+    position: relative;
+    top: 14px;
+    display: inline-block;
+}
+
+.next-product-list {
+    height: 100px;
+    width: 100%;
+}
+
+.product-item-container {
+    /* height: 553px; */
+    height: 50%;
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+
+
+.product-color {
+    height: 14px;
+    width: 14px;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 100%;
+    border: 1px solid rgb(123, 120, 120);
+}
+.product-color:hover {
+    box-shadow:  0 0 8px #2b2a2a;
+}
+.product-image {
+
+    width: 90%;
+    height: auto;
+}
+
+.product-price {
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.product-detail-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(95, 92, 92);
+    text-transform: capitalize;
+}
+
+.hoverCategory:hover {
+    cursor: pointer;
+}
+
+.result-number {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.paging-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.move-page-btn,
+.page-number-btn {
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    transition: background-color .3s;
+}
+
+.page-number-btn {
+    color: hsl(205, 86%, 17%);
+}
+
+.move-page-btn:hover:not(:disabled),
+.page-number-btn:hover {
+    background-color: rgb(194, 193, 193);
+    color: white;
+}
+
+.RED {
+    background-color: red;
+}
+
+.PINK {
+    background-color: pink;
+}
+
+.GREEN {
+    background-color: green;
+}
+
+.BLACK {
+    background-color: rgb(4, 5, 4);
+}
+
+.BLUE {
+    background-color: blue;
+}
+
+.white {
+    background-color: rgb(248, 248, 250);
+}

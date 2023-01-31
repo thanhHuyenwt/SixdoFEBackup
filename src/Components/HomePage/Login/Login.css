@@ -1,0 +1,26 @@
+.ant-drawer-content {
+    background-color: rgb(246, 243, 229) !important
+}
+
+.ant-drawer-header-title .ant-drawer-title,.ant-tabs-tab-btn {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px
+}
+
+.ant-input.form-input,.ant-input-password.form-input {
+    border: none;
+    border-bottom: 1px solid rgb(193, 191, 191);
+    background-color: rgb(246, 243, 229) ;
+}
+.ant-input.form-input>input {
+    background-color: rgb(246, 243, 229) ;
+}
+.ant-btn.submit-btn {
+    width: 100%;
+    min-height: 2.5rem;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
